@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/nuwa
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -40,7 +40,7 @@ TARGET_2ND_CPU_VARIANT := $(TARGET_CPU_VARIANT)
 
 # Bootloader
 PRODUCT_PLATFORM := kalama
-TARGET_BOOTLOADER_BOARD_NAME := fuxi
+TARGET_BOOTLOADER_BOARD_NAME := nuwa
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 

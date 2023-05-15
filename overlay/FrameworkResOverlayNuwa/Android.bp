@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "FrameworkResOverlayFuxi",
+    name: "FrameworkResOverlayNuwa",
     product_specific: true
 }

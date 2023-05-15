@@ -15,7 +15,7 @@
  */
 
 android_app {
-    name: "DT2W-Service-Fuxi",
+    name: "DT2W-Service-Nuwa",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -29,15 +29,15 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_org.lineageos.dt2w.Fuxi",
+        "privapp-permissions_org.lineageos.dt2w.Nuwa",
         "xiaomi-touch"
     ]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_org.lineageos.dt2w.Fuxi",
+    name: "privapp-permissions_org.lineageos.dt2w.Nuwa",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.Fuxi.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.Nuwa.xml",
     filename_from_src: true,
 }
 

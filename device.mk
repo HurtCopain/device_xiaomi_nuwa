@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/nuwa
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 33
@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Fuxi
+    DT2W-Service-Nuwa
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -62,16 +62,16 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.fuxi
+    android.hardware.lights-service.nuwa
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayFuxi \
-    DialerOverlayFuxi \
-    FrameworkResOverlayFuxi \
-    SettingsOverlayFuxi \
-    SystemUIResOverlayFuxi \
-    WifiResOverlayFuxi
+    CarrierConfigOverlayNuwa \
+    DialerOverlayNuwa \
+    FrameworkResOverlayNuwa \
+    SettingsOverlayNuwa \
+    SystemUIResOverlayNuwa \
+    WifiResOverlayNuwa
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

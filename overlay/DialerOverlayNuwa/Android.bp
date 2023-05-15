@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "CarrierConfigOverlayFuxi",
+    name: "DialerOverlayNuwa",
     product_specific: true
 }

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/nuwa
 
 # Configure core_64_bit.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -31,10 +31,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 ## Device identifier
-PRODUCT_DEVICE := fuxi
-PRODUCT_NAME := lineage_fuxi
+PRODUCT_DEVICE := nuwa
+PRODUCT_NAME := lineage_nuwa
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 2211133C
+PRODUCT_MODEL := 2210132G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS

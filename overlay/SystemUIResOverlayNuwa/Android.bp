@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "SettingsOverlayFuxi",
+    name: "SystemUIResOverlayNuwa",
     product_specific: true
 }

@@ -4,10 +4,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dialeroverlay.fuxi">
+    package="com.settingsoverlay.nuwa">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.dialer"
+      android:targetPackage="com.android.settings"
       android:isStatic="true"
       android:priority="0"/>
 </manifest>

@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "SystemUIResOverlayFuxi",
+    name: "WifiResOverlayNuwa",
     product_specific: true
 }
