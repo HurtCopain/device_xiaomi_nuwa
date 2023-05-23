@@ -39,3 +39,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="nuwa_global-user 13 TKQ1.220905.001 V14.0.9.0.TMBMIXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/nuwa_global/nuwa:13/TKQ1.220905.001/V14.0.9.0.TMBMIXM:user/release-keys
